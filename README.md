@@ -10,12 +10,14 @@
 
 ### 재고 수량을 초과하여 추가하려고 할 때
 
-![재고초과 경고](./src/assets/readme/image.png)
+![재고초과 경고](https://github.com/user-attachments/assets/6c56df93-14de-40ee-936f-60df3e012b92)
 
 ### 최소 수량 미만으로 설정하려고 할 때
 
-![alt text](./src/assets/readme/image-1.png)
+![최소 수량 경고](https://github.com/user-attachments/assets/835ab702-c76e-4d43-8e82-8c0c4f21691d)
 
 ### 유연한 사이징 (UI 디자인)
 
-<video controls src="./src/assets/readme/vedio.mp4" title="Title"></video>
+<video controls src="https://github.com/user-attachments/assets/0d25e6b1-ed8e-4ce1-a81b-791eb11fc6e4" title="Title"></video>
+
+
