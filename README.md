@@ -10,12 +10,12 @@
 
 ### 재고 수량을 초과하여 추가하려고 할 때
 
-![재고초과 경고](public/README/image.png)
+![재고초과 경고](./src/assets/readme/image.png)
 
 ### 최소 수량 미만으로 설정하려고 할 때
 
-![alt text](public/README/image-1.png)
+![alt text](./src/assets/readme/image-1.png)
 
 ### 유연한 사이징 (UI 디자인)
 
-<video controls src="public/README/vedio.mp4" title="Title"></video>
+<video controls src="./src/assets/readme/vedio.mp4" title="Title"></video>
