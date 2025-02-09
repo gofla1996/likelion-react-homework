@@ -1,6 +1,9 @@
-export interface ChipType {
+interface ItemsType {
   id: number;
-  label: string;
+  img: string;
+  name: string;
+  price: number;
+  stock: number;
 }
 
-export type ChipListType = ChipType[];
+export type ItemListType = ItemsType[];

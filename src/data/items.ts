@@ -1,28 +1,27 @@
-import type { ChipListType } from '@/types/items';
+import type { ItemListType } from '@/types/items';
 
-export const chips: ChipListType = [
+const items: ItemListType = [
   {
     id: 1,
-    label: '전체',
+    img: '../src/assets/milk.png',
+    name: '1A 우유 900mL',
+    price: 1880,
+    stock: 10,
   },
   {
     id: 2,
-    label: '아우터',
+    img: '../src/assets/bean_sprout.png',
+    name: '맛있는 콩나물 500g',
+    price: 1280,
+    stock: 4,
   },
   {
-    id: 3,
-    label: '바지',
-  },
-  {
-    id: 4,
-    label: '티셔츠',
-  },
-  {
-    id: 5,
-    label: '점퍼',
-  },
-  {
-    id: 6,
-    label: '원피스',
+    id: 1,
+    img: '../src/assets/bean_curd.png',
+    name: '고소한 두부 1kg',
+    price: 2280,
+    stock: 7,
   },
 ];
+
+export default items;
