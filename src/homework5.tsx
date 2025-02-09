@@ -1,4 +1,4 @@
-import Cart from './components/Cart/cart';
+import Cart from './cart/cart';
 
 function Homework5() {
   return (
