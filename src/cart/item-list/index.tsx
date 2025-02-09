@@ -19,9 +19,13 @@ function ItemList() {
                 className={tm('rounded-full', 'size-14')}
                 alt={item.name}
               />
-              <p>{item.name}</p>
-              <p>{item.price}원</p>
-              <p className="sr-only">재고: {item.stock}개</p>
+              <div className={tm('Item-info', 'flex flex-col')}>
+                <p className={tm('')}>{item.name}</p>
+                <p className={tm('text-sm line-clamp-1 font-bold')}>
+                  {new Intl.NumberFormat().format(item.price)}원
+                </p>
+                <p className="sr-only">재고: {item.stock}개</p>
+              </div>
             </div>
             <Count min={1} max={item.stock} />
           </li>

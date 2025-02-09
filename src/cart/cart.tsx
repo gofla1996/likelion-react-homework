@@ -8,10 +8,11 @@ function Cart() {
     <div
       className={tm(
         'Cart',
+        'bg-gray-200',
         'flex flex-col gap-3',
         'border-3 rounded-lg',
         'min-w-xs',
-        'p-3'
+        'p-5'
       )}
       lang="ko"
     >
