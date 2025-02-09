@@ -8,7 +8,7 @@ function ItemList() {
       <ul className={tm('flex flex-col gap-4', 'my-2 mx-1')}>
         {items.map((item) => (
           <li
-            key={item.id}
+            key={item.name}
             className={tm('flex flex-row justify-between items-center gap-3')}
           >
             <div
