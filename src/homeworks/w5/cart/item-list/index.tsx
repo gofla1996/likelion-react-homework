@@ -1,4 +1,4 @@
-import items from '@/data/items';
+import items from '@/homeworks/w5/data/items';
 import Count from './count';
 import { tm } from '@/utils/tw-merge';
 

@@ -1,5 +1,5 @@
 import { ErrorBoundary } from 'react-error-boundary';
-import Homework5 from './homework5';
+import Homework5 from './homeworks/w5/homework5';
 
 function App() {
   return (
