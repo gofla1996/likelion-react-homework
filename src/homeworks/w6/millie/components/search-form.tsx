@@ -22,17 +22,17 @@ function SearchForm({ query, setQuery }: SearchFormProps) {
     .map((word) => word.toLowerCase().trim());
   const isEnabledSearch = words.length > 0;
 
-  const checkPeace = words.includes('평화');
-  const checkRedColor = words.includes('빨간색');
-  const checkConcentration = words.includes('집중력');
+  // const checkPeace = words.includes('평화');
+  // const checkRedColor = words.includes('빨간색');
+  // const checkConcentration = words.includes('집중력');
 
-  const handleCheck = (tag: string, nextIsChecked: boolean) => {
-    const newWords = nextIsChecked
-      ? [...words, tag]
-      : words.filter((word) => word !== tag);
-    const nextQuery = convertQueryString(newWords);
-    setQuery(nextQuery);
-  };
+  // const handleCheck = (tag: string, nextIsChecked: boolean) => {
+  //   const newWords = nextIsChecked
+  //     ? [...words, tag]
+  //     : words.filter((word) => word !== tag);
+  //   const nextQuery = convertQueryString(newWords);
+  //   setQuery(nextQuery);
+  // };
 
   const handleQuery = (e: React.ChangeEvent<HTMLInputElement>) => {
     setQuery(e.currentTarget.value);
@@ -100,7 +100,7 @@ function SearchForm({ query, setQuery }: SearchFormProps) {
             )}
           />
         </div>
-        <div className="flex gap-4 my-3 *:select-none">
+        {/* <div className="flex gap-4 my-3 *:select-none">
           <label className="inline-flex gap-1 items-center">
             <input
               type="checkbox"
@@ -128,7 +128,7 @@ function SearchForm({ query, setQuery }: SearchFormProps) {
             />{' '}
             집중력
           </label>
-        </div>
+        </div> */}
       </form>
     </>
   );
