@@ -2,7 +2,7 @@
 
 ## 배포 주소
 
-- likelion-react-homework.vercel.app
+- https://likelion-react-homework.vercel.app
 
 ## 목차
 
