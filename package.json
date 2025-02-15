@@ -54,7 +54,8 @@
     "clsx": "2.1.1",
     "react": "19",
     "react-dom": "19",
-    "react-error-boundary": "5.0.0"
+    "react-error-boundary": "5.0.0",
+    "react-router-dom": "7.1.5"
   },
   "pnpm.onlyBuiltDependencies": {
     "husky": "9.1.7"
