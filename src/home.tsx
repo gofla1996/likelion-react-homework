@@ -16,15 +16,27 @@ export default function Home() {
       </h1>
       <div>
         <ul className="flex flex-col gap-3">
-          <li>
-            <Link to="/homework5" className="hover:text-indigo-200">
+          <li className="flex gap-3">
+            <Link to="/homework5" className=" hover:text-indigo-500">
               5주차 과제 : 쇼핑 카트 구현
             </Link>
+            <a
+              href="https://gofla1996.github.io/likelion-react-homework/read-me/w5"
+              className="hover:text-indigo-200 text-sm"
+            >
+              README
+            </a>
           </li>
-          <li>
-            <Link to="/homework6" className="hover:text-indigo-200">
+          <li className="flex gap-3">
+            <Link to="/homework6" className="hover:text-indigo-500">
               6주차 과제 : 카드 검색 리스트 구현 - 밀리의 서재
             </Link>
+            <a
+              href="https://gofla1996.github.io/likelion-react-homework/read-me/w6"
+              className="hover:text-indigo-200 text-sm"
+            >
+              README
+            </a>
           </li>
         </ul>
       </div>
