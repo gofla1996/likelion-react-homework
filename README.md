@@ -6,5 +6,5 @@
 
 ## 목차
 
-- 5주차 과제 리드미 : https://gofla1996.github.io/likelion-react-homework/read-me/w5
-- 6주차 과제 리드미 : https://gofla1996.github.io/likelion-react-homework/read-me/w6
+- 5주차 과제 리드미 : https://mintnaka.github.io/likelion-react-homework/read-me/w5
+- 6주차 과제 리드미 : https://mintnaka.github.io/likelion-react-homework/read-me/w6
